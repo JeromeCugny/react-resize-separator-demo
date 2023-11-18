@@ -23,7 +23,7 @@ export function HBlock() {
       </div>
       <HorizontalResizeHandle
         id="hblock-separator"
-        className="resize-separator-vertical"
+        className="resize-separator-vertical flex-only-basis-auto"
       />
       <div className="overflow-scroll" style={{ flex: 'auto' }}>
         <p>
