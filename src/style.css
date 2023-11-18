@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.flex-only-basis-auto {
+  flex: 0 0 auto !important;
+}
+
+.override-hsep-top {
+  top: 0;
+  bottom: auto !important;
+}
+
+.override-vsep-left {
+  left: 0;
+  right: auto !important;
+}
